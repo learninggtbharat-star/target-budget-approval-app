@@ -2,8 +2,9 @@ import mysql.connector
 
 def get_connection():
     return mysql.connector.connect(
-        host="localhost",
+        host="tokaido.proxy.rlwy.net",
+        port=36470,
         user="root",
-        password="12345678",
-        database="learningt"
+        password="EkEmFVwYTMPjKHBqOGbvHlrGROWhpMDo",
+        database="railway"
     )
